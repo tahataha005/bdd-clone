@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(212, 212, 212);
+}
+
+img{
+    height: 100%;
+}
+
+.top{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    background-color: #212121;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10px;
+    height: 10px;
+}
+
+.hero{
+    background:url("/Images/Hero-Image.jpg");
+    background-color: black;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    height: 500px;
+    padding: 150px;
+    text-align: center;
+    opacity: 60%;
+  }
+
+  .hero-header{
+    z-index: 2;
+    font-weight: bolder;
+  }
+
+  .container {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nav-list{
+    list-style: none;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-list > li{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 25px;
+    cursor: pointer;
+  }
+
+  .nav-list > li:hover{
+    background-color: rgba(252, 252, 252, 0.451);
+    opacity: 50%;
+  }
+
+  .join-button{
+    background-color: deepskyblue;
+    height:50px;
+    width: 100px;
+    border-radius: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    border: none;
+  }
+
+  .foundations-header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align:center;
+}
+
+.foundations-blocks{
+
+    background-color: white;
+    color:black;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 10px;
+    width: 10%;
+    min-width: 100px;
+}
+
+.flex{
+    display:flex;
+}
+
+.grow{
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.foundations-logos{
+    display: flex;
+    margin: 10px auto 0 auto;
+    height: 30px;
+}
+
+.videosection{
+  background: url("/Images/parallax-4.jpg");
+  color:black;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px 10px;
+}
+
+.visionheader{
+  text-align: center;
+
+}
+
+.video{
+  width: 500px;
+  align-self: center;
+  margin: 40px auto 0 auto;
+}
+
+.joinbddimage{
+  width: 40%;
+  margin-top: 10px;
+}
+
+.joinheader{
+  text-align: center;
+}
+
+.joinblock{
+  margin: 10px;
+  padding: 20px 10PX;
+  justify-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 18%;
+  min-width: 100px;
+}
+
+.knowmore-button{
+  background-color: deepskyblue;
+  height:50px;
+  width: 100px;
+  border-radius: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+  border: none;
+  align-self: center;
+}
