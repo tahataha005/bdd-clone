@@ -1,5 +1,6 @@
 body{
     background-color: rgb(212, 212, 212);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 img{
@@ -166,4 +167,30 @@ img{
   color: white;
   border: none;
   align-self: center;
+}
+
+.prefered{
+  background:url("/Images/parallax-light.jpg");
+}
+
+
+.preferedblocks{
+  margin: 10px;
+  padding: 20px 10PX;
+  justify-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 18%;
+  min-width: 100px;
+}
+
+.preferedimage{
+  height: 70px;
+  margin: 10px auto;
+}
+
+.preferedheader{
+  text-align: center;
+  font-size: 30px;
 }
